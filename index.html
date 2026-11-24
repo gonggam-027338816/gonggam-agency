@@ -1,0 +1,1408 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>미국대사관·소셜연금·비자·국제결혼·인허가 | 공감탐정행정사사무소</title>
+<meta name="description" content="미국대사관 근처 위치, 미국 소셜연금(SSA)·미국비자, 한국비자·국적업무, 국가별 국제결혼·가족관계 신고, 숙박·음식점 인허가, 상가 권리금계약서, 국제결혼 비자요건 | 공감탐정행정사사무소">
+<meta name="keywords" content="국제결혼 비자요건, F-6 결혼이민, 한국비자, 국적업무, 미국대사관 예약, 미국 소셜연금, 상가 권리금계약서, 숙박업 영업신고, 음식점 영업신고, 종로 행정사, 공감탐정행정사사무소">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Serif+KR:wght@500;700;900&display=swap');
+
+/* 1. 어둡게(Dark) 기본 테마 - 따뜻한 모카 브라운 본문 + 짙은 슬레이트 네이비 하단 구분 */
+:root, [data-theme="dark"] {
+  --bg: #2a2629;
+  --surface: #332e32;
+  --surface-alt: #3b353a;
+  --header-bg: #322c31;
+  --header-text: #efe6e9;
+  --header-accent: #cfa0ae;
+  --footer-bg: #101d2c;
+  --footer-text: #d9e4f0;
+  --footer-accent: #f0c969;
+  --footer-font: 'IBM Plex Sans KR', 'Noto Sans KR', sans-serif;
+  --primary: #cfa0ae;
+  --accent: #dfb9c4;
+  --text: #efe7ea;
+  --sub: #c4b6bb;
+  --border: #7a5b67;
+  --font-main: 'Noto Sans KR', sans-serif;
+  --font-head: 'Noto Serif KR', serif;
+  --base-size: 16px;
+}
+
+/* 2. 밝게(Light) 테마 - 크림 베이지 + 버건디/테라코타 */
+[data-theme="light"] {
+  --bg: #fcf8f3;
+  --surface: #ffffff;
+  --surface-alt: #f5ebe3;
+  --header-bg: #f3e6dc;
+  --header-text: #3d221c;
+  --header-accent: #a64b3e;
+  --footer-bg: #261620;
+  --footer-text: #f0e4ea;
+  --footer-accent: #f2b89c;
+  --footer-font: 'Noto Sans KR', sans-serif;
+  --primary: #a64b3e;
+  --accent: #87392e;
+  --text: #241917;
+  --sub: #63514c;
+  --border: #e3d2c8;
+  --font-main: 'Gowun Batang', 'Noto Serif KR', serif;
+  --font-head: 'Noto Serif KR', serif;
+  --base-size: 16px;
+}
+
+* { box-sizing: border-box; }
+html { font-size: var(--base-size); scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-main);
+  line-height: 1.65;
+  transition: background .25s, color .25s;
+}
+
+[data-theme="light"] body {
+  font-size: 16.5px;
+  line-height: 1.75;
+  letter-spacing: -0.01em;
+}
+[data-theme="light"] .card-title {
+  font-family: 'Noto Serif KR', serif;
+}
+
+/* 상단 헤더 (명조체 Serif 기반) */
+header {
+  background: var(--header-bg);
+  color: var(--header-text);
+  border-bottom: 3px solid var(--header-accent);
+  padding: 20px 22px 26px;
+  font-family: 'Noto Serif KR', serif;
+}
+.top-bar {
+  max-width: 1120px;
+  margin: 0 auto 14px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.theme-switch {
+  display: flex;
+  gap: 8px;
+}
+.theme-switch button {
+  background: rgba(128,128,128,0.14);
+  color: var(--header-text);
+  border: 1px solid var(--header-accent);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.theme-switch button.active {
+  background: var(--header-accent);
+  color: #ffffff;
+}
+[data-theme="dark"] .theme-switch button.active {
+  color: #181414;
+}
+.top-call {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--header-accent);
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 900;
+  font-size: 0.94rem;
+  padding: 9px 18px;
+  border-radius: 6px;
+}
+[data-theme="dark"] .top-call { color: #181414; }
+.top-call:hover { filter: brightness(1.07); }
+
+.brand-wrap {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  text-align: left;
+}
+.brand-wrap h1 {
+  margin: 0;
+  font-family: 'Noto Serif KR', serif;
+  font-size: 2.15rem;
+  font-weight: 900;
+  color: var(--header-text);
+}
+.brand-sub {
+  color: var(--header-accent);
+  font-family: 'Gowun Batang', serif;
+  font-size: 0.94rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 4px;
+}
+.embassy-badge {
+  display: inline-block;
+  margin-top: 7px;
+  padding: 4px 11px;
+  background: rgba(163, 93, 80, 0.14);
+  border: 1px solid var(--header-accent);
+  border-radius: 4px;
+  color: var(--header-text);
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+/* 다국어 출입국 급행 안내 배너 */
+.lang-banner {
+  background: var(--surface-alt);
+  border-bottom: 1px solid var(--border);
+  padding: 15px 16px;
+  text-align: center;
+}
+.lang-banner-title {
+  font-weight: 900;
+  font-size: 0.92rem;
+  margin-bottom: 10px;
+  color: var(--text);
+}
+.lang-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  max-width: 920px;
+  margin: 0 auto;
+}
+@media (max-width: 680px) {
+  .lang-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 440px) {
+  .lang-grid { grid-template-columns: 1fr; }
+}
+.lang-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--primary);
+  padding: 7px 12px;
+  border-radius: 6px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 0.83rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background .15s, color .15s;
+}
+.lang-chip:hover {
+  background: var(--primary);
+  color: #181414;
+}
+
+/* 내비게이션 */
+nav {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px 20px;
+  padding: 11px 16px;
+}
+nav a {
+  color: var(--text);
+  text-decoration: none;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+nav a:hover {
+  background: var(--surface-alt);
+  color: var(--primary);
+}
+
+main {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 8px 18px 50px;
+}
+section { padding-top: 38px; }
+.sec-head {
+  border-left: 5px solid var(--primary);
+  padding-left: 14px;
+  margin-bottom: 18px;
+}
+.sec-head h2 {
+  margin: 0 0 4px;
+  font-family: var(--font-head);
+  font-size: 1.48rem;
+  font-weight: 900;
+  color: var(--text);
+}
+.sec-head p {
+  margin: 0;
+  color: var(--sub);
+  font-size: 0.88rem;
+}
+
+/* 빈칸 없이 꽉 차는 3열 / 2열 그리드 */
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+@media (max-width: 820px) {
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 540px) {
+  .grid-3, .grid-2 { grid-template-columns: 1fr; }
+  .brand-wrap { flex-direction: column; text-align: center; }
+  .brand-wrap h1 { font-size: 1.7rem; }
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 5px solid var(--primary);
+  border-radius: 8px;
+  padding: 17px 16px;
+  cursor: pointer;
+  transition: transform .15s, background .15s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card:hover {
+  transform: translateY(-2px);
+  background: var(--surface-alt);
+}
+.card-title {
+  font-size: 1.03rem;
+  font-weight: 900;
+  margin-bottom: 6px;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.flag-img {
+  width: 24px;
+  height: 16px;
+  object-fit: cover;
+  border-radius: 2px;
+  border: 1px solid rgba(128,128,128,0.4);
+  flex-shrink: 0;
+}
+.card-desc {
+  font-size: 0.84rem;
+  color: var(--sub);
+  margin-bottom: 10px;
+}
+.card-btn {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+/* 6번 섹션: 구비목록 · 참고 안내 */
+.guide-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+}
+.guide-list {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 0.9rem;
+  line-height: 1.75;
+}
+.guide-list li { margin-bottom: 6px; }
+.disclaimer {
+  margin-top: 14px;
+  padding: 13px 16px;
+  background: var(--surface-alt);
+  border-left: 4px solid var(--primary);
+  border-radius: 4px;
+  font-size: 0.83rem;
+  color: var(--sub);
+}
+
+/* 상담 문의 폼 & 연락처 */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+@media (max-width: 768px) {
+  .contact-grid { grid-template-columns: 1fr; }
+}
+.info-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+}
+.info-box h3 {
+  margin: 0 0 12px;
+  font-size: 1.08rem;
+  color: var(--primary);
+}
+.info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+}
+.info-list li {
+  padding: 7px 0;
+  border-bottom: 1px dashed var(--border);
+}
+.info-list li:last-child { border-bottom: none; }
+.info-list a {
+  color: var(--primary);
+  font-weight: 700;
+  text-decoration: underline;
+}
+form {
+  display: grid;
+  gap: 10px;
+}
+input, select, textarea {
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  border-radius: 6px;
+  font: inherit;
+  font-size: 0.9rem;
+}
+button.submit-btn {
+  background: var(--primary);
+  color: #181414;
+  border: none;
+  padding: 13px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 900;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* 하단 푸터 (어둡게·밝게 테마별 하단 색상 및 서체 분리) */
+footer {
+  background: var(--footer-bg);
+  color: var(--footer-text);
+  border-top: 3px solid var(--footer-accent);
+  padding: 34px 20px 38px;
+  font-family: var(--footer-font);
+  font-size: 0.84rem;
+}
+.footer-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.footer-brand strong {
+  font-family: var(--footer-font);
+  font-size: 1.18rem;
+  font-weight: 900;
+  color: var(--footer-accent);
+  letter-spacing: 0.5px;
+}
+.footer-meta {
+  line-height: 1.85;
+  color: var(--footer-text);
+}
+.footer-meta a {
+  color: var(--footer-accent);
+  text-decoration: underline;
+  font-weight: 700;
+}
+.footer-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 12px;
+  text-align: left;
+  align-items: stretch;
+}
+.footer-meta, .footer-docs {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(226, 194, 117, 0.24);
+  border-radius: 8px;
+  padding: 15px 17px;
+  font-size: 0.82rem;
+  line-height: 1.75;
+  color: var(--footer-text);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-meta strong, .footer-docs strong {
+  color: var(--footer-accent);
+  font-size: 0.9rem;
+}
+.footer-docs strong {
+  color: var(--footer-accent);
+  font-size: 0.9rem;
+}
+.footer-docs ul {
+  margin: 8px 0 0;
+  padding-left: 18px;
+}
+.footer-notices {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.22);
+  font-size: 0.81rem;
+  line-height: 1.65;
+  color: var(--footer-accent);
+}
+@media (max-width: 720px) {
+  .footer-cols { grid-template-columns: 1fr; }
+}
+
+/* 상세 구비서류 팝업 모달 */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.72);
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+.modal-overlay.open { display: flex; }
+.modal-box {
+  background: #ffffff;
+  color: #241b19;
+  border-radius: 10px;
+  max-width: 640px;
+  width: 100%;
+  max-height: 88vh;
+  overflow-y: auto;
+  padding: 26px 24px;
+  box-shadow: 0 12px 32px rgba(0,0,0,0.4);
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.modal-box h3 {
+  margin: 0 0 8px;
+  font-family: 'Noto Serif KR', serif;
+  font-size: 1.32rem;
+  color: #3b2824;
+  border-bottom: 2px solid #c88f82;
+  padding-bottom: 8px;
+}
+.modal-summary {
+  font-size: 0.9rem;
+  color: #574945;
+  margin-bottom: 14px;
+}
+.modal-sec {
+  margin-top: 14px;
+  background: #fbf7f4;
+  border-left: 4px solid #a35d50;
+  padding: 12px 14px;
+  border-radius: 4px;
+}
+.modal-sec h4 {
+  margin: 0 0 6px;
+  font-size: 0.94rem;
+  color: #8c4a3e;
+}
+.modal-sec ul {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 0.87rem;
+  line-height: 1.65;
+}
+.modal-note {
+  margin-top: 14px;
+  font-size: 0.8rem;
+  color: #5c4d49;
+  background: #f5ebe6;
+  border: 1px solid #e0cbc2;
+  padding: 10px 12px;
+  border-radius: 4px;
+}
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+}
+.modal-actions a, .modal-actions button {
+  flex: 1;
+  padding: 13px;
+  border-radius: 6px;
+  font-weight: 900;
+  font-size: 0.94rem;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+.modal-actions a {
+  background: #3b2824;
+  color: #f3d2c9;
+}
+.modal-actions button {
+  background: #e5dedb;
+  color: #241b19;
+}
+</style>
+</head>
+<body>
+
+<!-- 상단 영역 -->
+<header>
+  <div class="top-bar">
+    <div class="theme-switch" role="group" aria-label="화면 테마 선택">
+      <button type="button" id="btn-dark" class="active" onclick="setTheme('dark')">🌙 어둡게</button>
+      <button type="button" id="btn-light" onclick="setTheme('light')">☀️ 밝게</button>
+    </div>
+    <a class="top-call" href="tel:01081281079">📞 전화 상담 연결 010-8128-1079</a>
+  </div>
+
+  <div class="brand-wrap">
+    <!-- 우측 손잡이 금색 돋보기 심볼마크 -->
+    <svg width="64" height="64" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" aria-label="공감탐정행정사사무소 심볼마크">
+      <defs>
+        <linearGradient id="goldGradTop" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#f7e08a"/>
+          <stop offset="45%" stop-color="#cfa035"/>
+          <stop offset="100%" stop-color="#8c6214"/>
+        </linearGradient>
+      </defs>
+      <path d="M84 30 A42 42 0 1 0 88 80" fill="none" stroke="url(#goldGradTop)" stroke-width="6.5" stroke-linecap="round"/>
+      <path d="M62 24 A34 34 0 0 0 58 92 A28 33 0 0 1 62 24 Z" fill="url(#goldGradTop)"/>
+      <path d="M62 56 H92 C92 67 87 77 79 84 L73 78 C79 72 82 66 82 62 H62 Z" fill="url(#goldGradTop)"/>
+      <rect x="83" y="83" width="11" height="28" rx="5.5" transform="rotate(-45 88.5 97)" fill="url(#goldGradTop)"/>
+    </svg>
+    <div>
+      <h1>공감탐정행정사사무소</h1>
+      <div class="brand-sub">비자 · 미국소셜연금 · 국제결혼 · 국적 · 인허가 · 행정서류</div>
+      <div class="embassy-badge">📍 주한미국대사관 인근 (종로구 청진동) · 전국 비대면 상담 및 서류 진행 가능</div>
+    </div>
+  </div>
+</header>
+
+<!-- 상단 9개국 다국어 출입국 급행 대행 안내 -->
+<div class="lang-banner">
+  <div class="lang-banner-title">📌 출입국사무소 방문예약 불가 시 급행 대행 제출 · 국가/언어를 클릭하시면 외국어 상세 안내가 열립니다</div>
+  <div class="lang-grid" id="lang-chips"></div>
+</div>
+
+<nav>
+  <a href="#sec-us">🇺🇸 미국대사관·소셜연금·비자</a>
+  <a href="#sec-kv">🇰🇷 한국비자·국적업무</a>
+  <a href="#sec-mr">💍 국제결혼·가족신고 (9개국)</a>
+  <a href="#sec-biz">🏨 숙박·음식점·부동산협업</a>
+  <a href="#sec-etc">📑 소명서·기타서류</a>
+  <a href="#sec-guide">📋 구비목록·참고고지</a>
+  <a href="#sec-contact">📩 상담·연락처</a>
+</nav>
+
+<main>
+  <!-- 1. 최상단: 미국대사관 업무예약 · 미국 소셜연금(SSA) · 미국비자 -->
+  <section id="sec-us">
+    <div class="sec-head">
+      <h2>1. 미국대사관 업무예약 · 미국 소셜연금(SSA) · 미국비자</h2>
+      <p>주한미국대사관 인근 사무소로 영사 예약, 미국 소셜연금(사회보장연금) 신청·수령·지급정지 해제 관련 서류 및 비자 기본 구비목록을 안내합니다.</p>
+    </div>
+    <div class="grid-3" id="grid-us"></div>
+  </section>
+
+  <!-- 2. 한국비자 및 국적업무 -->
+  <section id="sec-kv">
+    <div class="sec-head">
+      <h2>2. 한국비자 · 출입국 체류 · 국적업무</h2>
+      <p>체류자격별 비자, 국적포기·국적회복·국적상실·국적이탈 구비서류를 확인하실 수 있습니다.</p>
+    </div>
+    <div class="grid-3" id="grid-kv"></div>
+  </section>
+
+  <!-- 3. 국제결혼 및 가족관계 신고 (9개국) -->
+  <section id="sec-mr">
+    <div class="sec-head">
+      <h2>3. 국제결혼 · 가족관계 신고 (9개국 국가별 구비서류)</h2>
+      <p>국가를 클릭하시면 혼인신고, 중혼적 혼인신고, 출생신고, 이혼신고, 인지신고, 파양신고별 구비서류가 각각 열립니다.</p>
+    </div>
+    <div class="grid-3" id="grid-mr"></div>
+  </section>
+
+  <!-- 4. 숙박업 및 음식점 인허가 · 부동산 협업 안내 -->
+  <section id="sec-biz">
+    <div class="sec-head">
+      <h2>4. 숙박업 및 음식점 인허가 · 부동산 협업 안내</h2>
+      <p>숙박업·음식점 영업신고 구비서류, 상가 권리금계약서, 국제결혼 비자요건 안내입니다.</p>
+    </div>
+    <div class="grid-2" id="grid-biz"></div>
+  </section>
+
+  <!-- 5. 소명서 등 기타 서류 안내 -->
+  <section id="sec-etc">
+    <div class="sec-head">
+      <h2>5. 소명서 등 기타 행정서류 안내</h2>
+      <p>출입국 사유서·소명서·탄원서, 내용증명, 사실확인서 등 서류 작성 지원입니다.</p>
+    </div>
+    <div class="grid-2" id="grid-etc"></div>
+  </section>
+
+  <!-- 6. 구비목록 작성 및 참고·면책 고지 -->
+  <section id="sec-guide">
+    <div class="sec-head">
+      <h2>6. 구비목록 및 수임·실비·면책 참고 고지</h2>
+      <p>각 업무별 세부 구비서류와 정부 수수료는 상단 각 업무 카드를 클릭하시면 상세하게 확인하실 수 있습니다.</p>
+    </div>
+    <div class="guide-box">
+      <ul class="guide-list">
+        <li><strong>구비서류 기준 안내:</strong> 각 업무 카드에 기재된 구비서류는 현재 기준 기본 목록이며, 신청인의 체류 이력·가족관계·재외공관 및 관할 기관의 최신 지침에 따라 일부 서류가 추가되거나 가감될 수 있습니다.</li>
+        <li><strong>정부 수수료 및 실비 별도:</strong> 각 업무별 정부 수수료(인지대·대사관 수수료 등)는 상단 각 업무 구비목록 내에 기재되어 있으며 변경될 수 있습니다. 행정사 대행 수임료에는 관공서 수수료, 증명서 발급비, 번역·공증·아포스티유 인증비, 우편·교통 등 실비가 제외되어 별도 발생합니다.</li>
+        <li><strong>업무 범위 고지:</strong> 당 사무소는 행정사법 및 탐정업 관련 법령이 허용하는 범위 내에서 서류 작성·번역·대행 제출 및 사실조사를 수행하며, 외국 변호사 고유 업무(미국 이민법률 자문·소송 대리 등)는 수행하지 않습니다.</li>
+      </ul>
+      <div class="disclaimer">
+        ※ <strong>면책 고지:</strong> 본 페이지의 안내는 현재 기준 일반 참고용이며, 최종 구비서류와 진행 절차는 상담 시 개별 사안을 확인하여 확정합니다. 최종 허가·발급 여부는 관할 행정청 및 해당 국가 정부의 심사 권한에 속합니다.
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. 상담 문의 및 연락처 -->
+  <section id="sec-contact">
+    <div class="sec-head">
+      <h2>7. 상담 문의 및 사무소 안내</h2>
+      <p>방문상담은 예약 후 진행하며, 전국 비대면 상담 및 우편·온라인 서류 진행이 가능합니다.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="info-box">
+        <h3>공감탐정행정사사무소 직통 안내</h3>
+        <ul class="info-list">
+          <li><strong>사무소 위치:</strong> 주한미국대사관·종로구청 인근 (서울시 종로구 청진동)</li>
+          <li><strong>대표전화:</strong> <a href="tel:01081281079">010-8128-1079</a> (터치 시 바로 전화 연결)</li>
+          <li><strong>팩스번호:</strong> 02-723-1126</li>
+          <li><strong>이메일:</strong> <a href="mailto:3351ben@daum.net?subject=[홈페이지 상담문의]">3351ben@daum.net</a> (클릭 시 메일 발송)</li>
+          <li><strong>해외 거주자 문의:</strong> 우선 이메일(<a href="mailto:3351ben@daum.net?subject=[해외 거주자 상담문의]">3351ben@daum.net</a>)로 문의해 주세요. (Overseas residents: please contact us by email first.)</li>
+          <li><strong>제3자 통역 안내:</strong> 중국어·베트남어·필리핀어는 제3자 통역이 가능하며 통역비가 별도로 발생합니다.</li>
+          <li><strong>결제 및 진행 안내:</strong> 신용카드 결제 가능 · 전국 비대면 상담 및 진행 가능</li>
+        </ul>
+      </div>
+
+      <div class="info-box">
+        <h3>온라인 · 비대면 상담 접수</h3>
+        <form action="https://formspree.io/f/mbgjddqw" method="POST">
+          <input type="hidden" name="_subject" value="[공감탐정행정사사무소] 새 상담 문의">
+          <input name="성함" placeholder="성함 (또는 업체명)" required>
+          <input name="연락처" placeholder="회신받으실 연락처" required>
+          <select name="문의분야">
+            <option value="미국대사관예약/미국소셜연금/미국비자">미국대사관 예약 · 미국 소셜연금 · 미국비자</option>
+            <option value="한국비자/출입국급행/국적업무">한국비자 · 출입국 급행 · 국적포기·회복·상실</option>
+            <option value="국제결혼/가족관계신고">국제결혼 · 가족관계 신고 (국가별)</option>
+            <option value="숙박업/음식점 인허가">숙박업 · 음식점 인허가</option>
+            <option value="부동산계약/사실조사/협업">부동산 계약서 · 위장거주 사실조사 · 업체 협업</option>
+            <option value="소명서/기타서류">소명서 · 내용증명 · 기타 행정서류</option>
+          </select>
+          <textarea name="문의내용" rows="3" placeholder="국가, 업무 종류 또는 문의하실 내용을 간략히 적어주세요. (비대면 상담 가능)"></textarea>
+          <button class="submit-btn" type="submit">상담 문의 보내기</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- 하단 영역 -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <svg width="46" height="46" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" aria-label="공감탐정행정사사무소 심볼마크">
+        <defs>
+          <linearGradient id="goldGradBot" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#f7e08a"/>
+            <stop offset="45%" stop-color="#cfa035"/>
+            <stop offset="100%" stop-color="#8c6214"/>
+          </linearGradient>
+        </defs>
+        <path d="M84 30 A42 42 0 1 0 88 80" fill="none" stroke="url(#goldGradBot)" stroke-width="6.5" stroke-linecap="round"/>
+        <path d="M62 24 A34 34 0 0 0 58 92 A28 33 0 0 1 62 24 Z" fill="url(#goldGradBot)"/>
+        <path d="M62 56 H92 C92 67 87 77 79 84 L73 78 C79 72 82 66 82 62 H62 Z" fill="url(#goldGradBot)"/>
+        <rect x="83" y="83" width="11" height="28" rx="5.5" transform="rotate(-45 88.5 97)" fill="url(#goldGradBot)"/>
+      </svg>
+      <strong>공감탐정행정사사무소</strong>
+    </div>
+
+    <div class="footer-cols">
+      <div class="footer-meta">
+        <div>
+          <strong>사무소 위치 및 안내</strong><br>
+          서울시 종로구 종로3길 34 302호 청진동 삼송빌딩 (주한미국대사관·종로구청 인근 · 종각역 1번출구·광화문역 10번출구)<br>
+          EN: Room 302, Samsong Bldg, 34 Jongno 3-gil, Jongno-gu, Seoul<br>
+          CN: 首尔市钟路区钟路3街34号 三松大厦302室<br>
+          사업자등록번호: 821-46-01200 · 방문상담 사전예약제<br>
+          계좌: 국민은행(KB) 신00 공감탐정행정사사무소 006001-04-356388
+        </div>
+      </div>
+
+      <div class="footer-docs">
+        <div>
+          <strong>구비서류 안내</strong>
+          <ul>
+            <li>신분증(주민등록증·운전면허증·여권, 외국인은 여권·외국인등록증)</li>
+            <li>위임장, 도장 또는 인감도장·인감증명서, 처분통지서 및 기타 관련 서류</li>
+            <li>세부 구비목록은 상단 업무별 카드를 클릭하여 확인하실 수 있습니다.</li>
+            <li>구비서류들은 일반우편이 아닌 특급우편으로 보내 주세요.</li>
+          </ul>
+        </div>
+        <div class="footer-notices">
+          ※ 비자 심사는 미국 정부 소관이며, 출입국 심사는 출입국심사관의 재량에 따라 결정됩니다.
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- 상세 구비서류 팝업 모달 -->
+<div class="modal-overlay" id="modal" onclick="if(event.target===this)closeModal()">
+  <div class="modal-box">
+    <h3 id="m-title"></h3>
+    <div class="modal-summary" id="m-desc"></div>
+    <div id="m-body"></div>
+    <div class="modal-note">
+      ※ 현재 기준 기본 구비서류 안내이며 신청인 상황·관할 기관 지침에 따라 가감될 수 있습니다. 정부 수수료 및 번역·공증·아포스티유·우편 등 실비는 대행 수임료와 별도입니다.
+    </div>
+    <div class="modal-actions">
+      <a href="tel:01081281079">📞 전화 상담 (010-8128-1079)</a>
+      <button type="button" onclick="closeModal()">닫기</button>
+    </div>
+  </div>
+</div>
+
+<script>
+var FLAGS = {us:"<rect width='60' height='40' fill='#fff'/><g fill='#b22234'><rect width='60' height='3.1'/><rect y='6.2' width='60' height='3.1'/><rect y='12.3' width='60' height='3.1'/><rect y='18.5' width='60' height='3.1'/><rect y='24.6' width='60' height='3.1'/><rect y='30.8' width='60' height='3.1'/><rect y='36.9' width='60' height='3.1'/></g><rect width='24' height='21.5' fill='#3c3b6e'/>",cn:"<rect width='60' height='40' fill='#de2910'/><polygon fill='#ffde00' points='10,4 11.41,8.06 15.71,8.15 12.28,10.74 13.53,14.85 10,12.4 6.47,14.85 7.72,10.74 4.29,8.15 8.59,8.06'/>",vn:"<rect width='60' height='40' fill='#da251d'/><polygon fill='#ff0' points='30,9 32.59,16.44 40.46,16.6 34.18,21.36 36.47,28.9 30,24.4 23.53,28.9 25.82,21.36 19.54,16.6 27.41,16.44'/>",ph:"<rect width='60' height='20' fill='#0038a8'/><rect y='20' width='60' height='20' fill='#ce1126'/><polygon fill='#fff' points='0,0 0,40 34.6,20'/><circle cx='11' cy='20' r='4' fill='#fcd116'/>",th:"<rect width='60' height='40' fill='#a51931'/><rect y='6.7' width='60' height='26.6' fill='#fff'/><rect y='13.3' width='60' height='13.4' fill='#2d2a4a'/>",jp:"<rect width='60' height='40' fill='#fff'/><circle cx='30' cy='20' r='12' fill='#bc002d'/>",ru:"<rect width='60' height='13.4' fill='#fff'/><rect y='13.3' width='60' height='13.4' fill='#0039a6'/><rect y='26.6' width='60' height='13.4' fill='#d52b1e'/>",uz:"<rect width='60' height='13' fill='#0099b5'/><rect y='13' width='60' height='1.3' fill='#ce1126'/><rect y='14.3' width='60' height='11.4' fill='#fff'/><rect y='25.7' width='60' height='1.3' fill='#ce1126'/><rect y='27' width='60' height='13' fill='#1eb53a'/>",kh:"<rect width='60' height='40' fill='#032ea1'/><rect y='10' width='60' height='20' fill='#e00025'/><polygon fill='#fff' points='22,25 22,21 25,21 25,17 28,17 28,14 32,14 32,17 35,17 35,21 38,21 38,25'/>"};
+function flagSrc(c){ return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 40'>" + (FLAGS[c]||'') + '</svg>'); }
+
+// 테마 전환 (어둡게 / 밝게)
+function setTheme(mode) {
+  document.documentElement.setAttribute('data-theme', mode);
+  ['dark', 'light'].forEach(function(m) {
+    document.getElementById('btn-' + m).classList.toggle('active', m === mode);
+  });
+}
+
+// 상단 9개국 다국어 출입국 급행 대행 안내
+var LANG_GUIDES = [
+  {
+    code: 'us',
+    chip: '미국 · English',
+    title: '🇺🇸 Express Immigration Document Submission & U.S. Embassy Area Office',
+    desc: 'Located near the U.S. Embassy in Jongno-gu, Seoul. Remote/online consultation is available nationwide.',
+    sections: [
+      { h: 'Immigration Office Express Service (No Appointment Needed)', list: [
+        'If you cannot book a visit reservation on HiKorea before your visa expires, our licensed administrative scrivener can submit your application directly on an express agency basis.',
+        'Services: Visa Extension, Change of Status, Alien Registration (ARC), F-6 Marriage Visa, Nationality Renunciation/Restoration, U.S. Social Security (SSA) Document Preparation.',
+        'Basic Documents: Passport, ARC, Application Form, Photo, Proof of Residence (Lease Contract), and status-specific supporting documents.'
+      ]},
+      { h: 'Contact & Consultation', list: [
+        'Phone: 010-8128-1079 | Fax: 02-723-1126 | Email: 3351ben@daum.net',
+        'In-person visits are by appointment only. Non-face-to-face consultation available.'
+      ]}
+    ]
+  },
+  {
+    code: 'cn',
+    chip: '중국 · 中文',
+    title: '🇨🇳 出入境加急代办提交及签证·国际结婚材料指南',
+    desc: '位于首尔钟路区（美国大使馆附近），支持全国非面对面在线及邮寄咨询办理。',
+    sections: [
+      { h: '出入境管理事务所加急代办（无需预约）', list: [
+        '未能预约到出入境访问时间、签证即将到期时，可由韩国持证行政士加急代办提交申请。',
+        '业务范围：滞留期延长、资格变更（F-6结婚移民、E-7、F-2、F-5等）、外国人登录证、国籍丧失与恢复申告、国际结婚公证认证及婚姻·出生申告。',
+        '基本材料：护照、外国人登录证、综合申请书、标准证件照、滞留地证明（租房合同等）及各资格所需证明文件。'
+      ]},
+      { h: '联系方式', list: [
+        '电话：010-8128-1079 | 传真：02-723-1126 | 邮箱：3351ben@daum.net',
+        '到访咨询需提前预约，支持电话/邮件非面对面咨询。'
+      ]}
+    ]
+  },
+  {
+    code: 'vn',
+    chip: '베트남 · Tiếng Việt',
+    title: '🇻🇳 Dịch vụ nộp hồ sơ Xuất nhập cảnh khẩn cấp & Kết hôn Hàn-Việt',
+    desc: 'Văn phòng tại Jongno-gu, Seoul (gần Đại sứ quán Mỹ). Hỗ trợ tư vấn từ xa trên toàn quốc.',
+    sections: [
+      { h: 'Nộp hồ sơ Xuất nhập cảnh khẩn cấp (Không cần đặt lịch hẹn)', list: [
+        'Nếu bạn không thể đặt lịch hẹn trên HiKorea và sắp hết hạn visa, Hành chính sư được cấp phép sẽ đại diện nộp hồ sơ trực tiếp.',
+        'Dịch vụ: Gia hạn visa, chuyển đổi tư cách lưu trú (F-6 kết hôn, E-7, D-2, F-2), đăng ký thẻ người nước ngoài, thủ tục đăng ký kết hôn và khai sinh Hàn-Việt.',
+        'Hồ sơ cơ bản: Hộ chiếu, thẻ người nước ngoài (ARC), đơn đăng ký tổng hợp, ảnh thẻ, hợp đồng thuê nhà và giấy tờ chứng minh theo từng diện.'
+      ]},
+      { h: 'Liên hệ tư vấn', list: [
+        'Điện thoại: 010-8128-1079 | Fax: 02-723-1126 | Email: 3351ben@daum.net',
+        'Tư vấn trực tiếp cần đặt lịch hẹn trước. Có hỗ trợ tư vấn online/từ xa.'
+      ]}
+    ]
+  },
+  {
+    code: 'ph',
+    chip: '필리핀 · Filipino/EN',
+    title: '🇵🇭 Express Immigration Filing & Korea-Philippines Marriage Documents',
+    desc: 'Located in Jongno-gu, Seoul (near U.S. Embassy). Remote consultation available.',
+    sections: [
+      { h: 'Express Submission Without HiKorea Appointment', list: [
+        'Unable to secure an immigration office appointment before your visa expiration? We provide authorized agency submission.',
+        'Services: Visa Extension, Change of Status, F-6 Spouse Visa, PSA CENOMAR/Marriage/Birth Certificate DFA Apostille & Korean Civil Registration.',
+        'Basic Requirements: Passport, ARC, Integrated Application Form, ID Photo, Proof of Address, and supporting documents.'
+      ]},
+      { h: 'Contact Information', list: [
+        'Tel: 010-8128-1079 | Fax: 02-723-1126 | Email: 3351ben@daum.net'
+      ]}
+    ]
+  },
+  {
+    code: 'th',
+    chip: '태국 · ภาษาไทย',
+    title: '🇹🇭 บริการยื่นเอกสารตรวจคนเข้าเมืองแบบเร่งด่วน และเอกสารสมรสเกาหลี-ไทย',
+    desc: 'สำนักงานตั้งอยู่ที่เขตจงโน โซล (ใกล้สถานทูตสหรัฐฯ) สามารถปรึกษาออนไลน์ได้ทั่วประเทศ',
+    sections: [
+      { h: 'ยื่นเอกสารตม. เร่งด่วน (กรณีจองคิว HiKorea ไม่ได้)', list: [
+        'หากไม่สามารถจองคิวออนไลน์ได้และวีซ่าใกล้หมดอายุ สำนักงานนักกฎหมายปกครองได้รับอนุญาตสามารถยื่นเอกสารแทนได้ทันที',
+        'บริการ: ต่ออายุวีซ่า เปลี่ยนประเภทวีซ่า (F-6 สมรส, E-7, D-2, F-2) บัตรต่างด้าว รับรองเอกสารกงสุล และจดทะเบียนสมรส·แจ้งเกิด',
+        'เอกสารพื้นฐาน: หนังสือเดินทาง บัตรต่างด้าว แบบฟอร์มคำร้อง รูปถ่าย สัญญาเช่าที่พัก และเอกสารประกอบตามประเภทวีซ่า'
+      ]},
+      { h: 'ติดต่อสอบถาม', list: [
+        'โทร: 010-8128-1079 | แฟกซ์: 02-723-1126 | อีเมล: 3351ben@daum.net'
+      ]}
+    ]
+  },
+  {
+    code: 'jp',
+    chip: '일본 · 日本語',
+    title: '🇯🇵 出入国管理局 急行代理提出・ビザ・日韓国際結婚書類のご案内',
+    desc: 'ソウル鍾路区（駐韓米国大使館近く）。全国非対面・オンライン相談も承ります。',
+    sections: [
+      { h: '訪問予約が取れない場合の急行代理提出', list: [
+        'ハイコリア(HiKorea)の訪問予約が満席で在留期限が迫っている場合、行政書士（行政士）が窓口へ代理提出いたします。',
+        '取扱業務：在留期間延長、在留資格変更（F-6結婚移民・E-7・F-2・F-5等）、外国人登録、国籍離脱・喪失申告、日韓婚姻・出生届の書類作成・翻訳。',
+        '基本必要書類：パスポート、外国人登録証、統合申請書、証明写真、住居立証書類（賃貸借契約書等）および資格別立証資料。'
+      ]},
+      { h: 'お問い合わせ', list: [
+        '電話：010-8128-1079 | FAX：02-723-1126 | Email：3351ben@daum.net',
+        'ご来所相談は事前予約制です。非対面でのご相談・郵送手続きにも対応しております。'
+      ]}
+    ]
+  },
+  {
+    code: 'ru',
+    chip: '러시아 · Русский',
+    title: '🇷🇺 Срочная подача документов в иммиграционную службу и визы',
+    desc: 'Офис в районе Чонногу, Сеул (рядом с Посольством США). Возможна дистанционная консультация.',
+    sections: [
+      { h: 'Срочная подача без предварительной записи (HiKorea)', list: [
+        'Если вы не смогли записаться на прием в иммиграционный офис до истечения срока визы, лицензированный административный юрист (хэнджонса) подаст документы от вашего имени.',
+        'Услуги: Продление визы, смена статуса (F-6, F-4, E-7, F-2, F-5), оформление ID-карты (ARC), регистрация брака и рождения (апостиль ЗАГС).',
+        'Базовые документы: Паспорт, ID-карта, заявление, фото, договор аренды жилья и профильные справки.'
+      ]},
+      { h: 'Контакты', list: [
+        'Тел.: 010-8128-1079 | Факс: 02-723-1126 | Email: 3351ben@daum.net'
+      ]}
+    ]
+  },
+  {
+    code: 'uz',
+    chip: '우즈베키스탄 · Oʻzbek',
+    title: '🇺🇿 Migratsiya xizmatiga shoshilinch hujjat topshirish va viza xizmatlari',
+    desc: 'Seul shahri, Jongno-gu (AQSH elchixonasi yaqinida). Masofaviy onlayn maslahat mavjud.',
+    sections: [
+      { h: 'Navbatsiz shoshilinch hujjat topshirish (Agentlik orqali)', list: [
+        'Agar HiKorea orqali uchrashuv belgilay olmagan bo‘lsangiz va viza muddati tugashiga oz qolgan bo‘lsa, litsenziyaga ega ma’muriy yurist hujjatlaringizni tezkor topshirib beradi.',
+        'Xizmatlar: Viza muddatini uzaytirish, viza turini o‘zgartirish (F-6, E-7, D-2, F-2), ID-karta (ARC), nikoh va tug‘ilganlikni ro‘yxatga olish (FHDYO apostil).',
+        'Asosiy hujjatlar: Pasport, ID-karta, ariza shakli, fotosurat, ijara shartnomasi va qo‘shimcha tasdiqlovchi hujjatlar.'
+      ]},
+      { h: 'Aloqa ma’lumotlari', list: [
+        'Telefon: 010-8128-1079 | Faks: 02-723-1126 | Email: 3351ben@daum.net'
+      ]}
+    ]
+  },
+  {
+    code: 'kh',
+    chip: '캄보디아 · ភាសាខ្មែរ',
+    title: '🇰🇭 សេវាកម្មដាក់ឯកសារអន្តោប្រវេសន៍បន្ទាន់ និងឯកសារអាពាហ៍ពិពាហ៍កូរ៉េ-កម្ពុជា',
+    desc: 'ការិយាល័យនៅ Jongno-gu ទីក្រុងសេអ៊ូល (ជិតស្ថានទូតអាមេរិក)។ អាចពិគ្រោះយោបល់តាមអនឡាញទូទាំងប្រទេស។',
+    sections: [
+      { h: 'ការដាក់ឯកសារអន្តោប្រវេសន៍បន្ទាន់ (ដោយមិនចាំបាច់កក់ការណាត់ជួប HiKorea)', list: [
+        'ប្រសិនបើអ្នកមិនអាចកក់ការណាត់ជួបតាម HiKorea បាន ហើយទិដ្ឋាការជិតផុតកំណត់ មន្ត្រីរដ្ឋបាលដែលមានអាជ្ញាប័ណ្ណអាចដាក់ឯកសារជំនួសអ្នកបានភ្លាមៗ។',
+        'សេវាកម្ម៖ ពន្យារទិដ្ឋាការ ប្តូរប្រភេទទិដ្ឋាការ (F-6 អាពាហ៍ពិពាហ៍, E-7, D-2) ធ្វើកាតជនបរទេស (ARC) និងរៀបចំឯកសារចុះបញ្ជីអាពាហ៍ពិពាហ៍·សំបុត្រកំណើត។',
+        'ឯកសារមូលដ្ឋាន៖ លិខិតឆ្លងដែន កាតជនបរទេស ពាក្យស្នើសុំ រូបថត កិច្ចសន្យាជួលផ្ទះ និងឯកសារពាក់ព័ន្ធផ្សេងទៀត។'
+      ]},
+      { h: 'ទំនាក់ទំនងពិគ្រោះយោបល់', list: [
+        'ទូរស័ព្ទ៖ 010-8128-1079 | ទូរសារ៖ 02-723-1126 | អ៊ីមែល៖ 3351ben@daum.net'
+      ]}
+    ]
+  }
+];
+
+var langContainer = document.getElementById('lang-chips');
+LANG_GUIDES.forEach(function(lg) {
+  var btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'lang-chip';
+  var flagUrl = flagSrc(lg.code);
+  btn.innerHTML = '<img class="flag-img" src="' + flagUrl + '" alt="">' + lg.chip;
+  btn.onclick = function() { openStandardModal(lg); };
+  langContainer.appendChild(btn);
+});
+
+var COMMON_PROCESS = [
+  '1단계: 업무 유형·신청인·담당기관 및 현재 상황 확인 (비대면 상담 가능)',
+  '2단계: 기본 구비서류와 보유자료 검토, 누락·추가 입증자료 정리',
+  '3단계: 최신 기관 안내 및 신청·예약 방식 확인',
+  '4단계: 서류 작성·번역·자료 편철 정리 지원',
+  '5단계: 신청·예약·제출 방법 안내 또는 가능한 범위의 제출 지원',
+  '6단계: 접수 후 보완 요청 및 진행상황 확인(가능 범위)'
+];
+
+// 1. 미국대사관 예약 · 미국 소셜연금(SSA) · 미국비자
+var DATA_US = [
+  {
+    title: '미국 소셜연금 (사회보장연금·SSA) 서류 안내',
+    sub: '연금 청구·지급정지 해제·계좌변경·증명서류',
+    desc: '주한미국대사관 인근에서 미국 사회보장연금(Social Security Administration, SSA) 신청, 해외 거주자 정기 생존확인서(SSA-7162), 지급정지 해제, 수령계좌 변경 및 영문 서류 작성을 지원합니다.',
+    sections: [
+      { h: '기본 구비서류', list: [
+        '신청인 유효 여권 및 미국 사회보장번호(SSN) 확인 자료',
+        '미국 소셜연금 신청서(SSA-1 등) 또는 해외 수급자 확인서(SSA-7162) 등 해당 양식',
+        '한국 기본증명서·혼인관계증명서·가족관계증명서(상세) 및 영문 번역본',
+        '수령 계좌 확인서(영문 은행계좌 개설확인서 / Direct Deposit 양식)',
+        '미 국세청(IRS)·SSA 발송 통지서 또는 지급정지 안내문(해당 시)'
+      ]},
+      { h: '수수료 및 진행 안내', list: [
+        '기관 수수료: 미 사회보장국(SSA) 접수 수수료 없음 (증명서 발급·번역·국제우편 실비 별도)',
+        '주한미국대사관 인근 위치로 대사관 영사과(FBU) 연계 서류 정리 및 비대면 진행 가능'
+      ]}
+    ]
+  },
+  {
+    title: '미국대사관 영사 업무 예약 안내',
+    sub: '예약 경로·예약 전 확인사항·자료 준비',
+    desc: '주한미국대사관(서울 종로구 세종대로 188, 당 사무소 인근) 비자 면접 및 영사 업무 예약을 위한 절차 안내입니다.',
+    sections: [
+      { h: '영사 업무 예약 경로 및 확인사항', list: [
+        '비이민·이민비자: 온라인 DS-160/DS-260 작성 후 공식 예약 시스템(USTravelDocs) 계정 생성 및 수수료 납부',
+        '미국 시민권자 영사업무(ACS): 여권 갱신, 해외출생신고(CRBA), 공증 등은 대사관 ACS 온라인 예약 이용',
+        '예약 전 확인: 여권 유효기간, 기존 비자 만료일, 인터뷰 면제(드롭박스) 대상 여부 확인'
+      ]},
+      { h: '기본 구비서류 및 정부 수수료', list: [
+        '신청인 유효 여권, DS-160 확인 페이지, 면접 예약 확인서, 규격 사진(5x5cm)',
+        '정부 수수료(별도): 비이민 관광·상용(B1/B2)·유학(F/J) 등 미 국무부 수수료 $185 (변동 가능, 대행 수임료 제외)'
+      ]}
+    ]
+  },
+  {
+    title: 'B1/B2 방문비자 (관광·단기출장)',
+    sub: '관광·친지방문·단기 비즈니스 회의',
+    desc: '단기 상용(B1) 및 관광·친지방문(B2) 비자 기본 구비서류 목록입니다.',
+    sections: [
+      { h: '기본 구비서류', list: [
+        '유효한 여권, DS-160 확인 페이지, 면접 예약 확인서, 수수료 영수증($185 별도), 규격 사진',
+        '재직증명서·사업자등록증명원(사업자인 경우), 소득금액증명원',
+        '재정 증빙(본인 명의 잔액증명서, 급여통장 거래내역 등)',
+        '국내 기반 입증 자료(가족관계증명서, 부동산 등기부 등 권장), 출장 시 초청장'
+      ]}
+    ]
+  },
+  {
+    title: 'F-1 / M-1 학생비자 · J-1 교환방문',
+    sub: '유학·어학연수·인턴·교환연구원',
+    desc: '미국 학교 입학허가(I-20) 및 교환방문 프로그램(DS-2019) 참가자 비자 구비목록입니다.',
+    sections: [
+      { h: '기본 구비서류', list: [
+        '유효한 여권, DS-160 확인 페이지, 면접 예약 확인서, 수수료 영수증, 규격 사진',
+        '학교 발행 입학허가서(I-20) 또는 교환방문 프로그램 확인서(DS-2019)',
+        'SEVIS 수수료(I-901) 납부 영수증 (정부 수수료 별도)',
+        '최종학력 졸업·재학증명서, 영문 성적증명서, 재정 증빙(잔액·소득증명서)'
+      ]}
+    ]
+  },
+  {
+    title: '취업·주재원·투자비자 (H-1B·L-1·E-2)',
+    sub: '청원 승인 기반·주재원·소액투자',
+    desc: '미국 고용주 청원 승인 후 대사관 면접을 위한 서류 정리입니다.',
+    sections: [
+      { h: '기본 구비서류', list: [
+        '유효한 여권, DS-160 확인 페이지, 면접 예약 확인서, 수수료 영수증, 규격 사진',
+        '미국 이민국 청원 승인서(Form I-797 Notice of Action)',
+        '고용계약서, 청원서 사본, 학위·경력증명서, 동반가족 가족관계증명서(영문 번역)'
+      ]}
+    ]
+  },
+  {
+    title: 'ESTA (미국 전자여행허가)',
+    sub: '90일 이내 무비자 단기 방문',
+    desc: '비자면제프로그램(VWP)을 통한 90일 이내 단기 관광·출장 전자여행허가 신청입니다.',
+    sections: [
+      { h: '기본 구비서류 및 정부 수수료', list: [
+        '유효한 대한민국 전자여권, 해외결제 카드, 개인 이메일, 미국 내 체류지 및 비상 연락처',
+        '정부 수수료(별도): 미 관세국경보호청(CBP) 공식 수수료 $21 (변동 가능, 대행 수임료 제외)'
+      ]}
+    ]
+  }
+];
+
+// 2. 한국비자 및 국적업무
+var DATA_KV = [
+  {
+    title: '국적포기 · 국적회복 · 국적상실 · 국적이탈',
+    sub: '복수국적자 국적선택·해외시민권 취득 상실신고',
+    desc: '대한민국 국적상실신고, 국적이탈·국적선택(포기)신고, 외국국적동포 및 구 국적자의 국적회복허가 신청 구비서류입니다.',
+    sections: [
+      { h: '기본 구비서류 (유형별)', list: [
+        '국적상실신고: 국적상실신고서, 외국 시민권증서(귀화증서) 원본 및 번역본, 외국 여권 사본, 기본증명서·가족관계증명서(상세), 제적등본',
+        '국적이탈·국적포기: 국적이탈(선택)신고서, 출생증명서, 부모 기본증명서·혼인관계증명서, 외국 여권·시민권 증빙, 병역 관련 서류(해당 남성)',
+        '국적회복허가: 국적회복허가신청서, 본국 범죄경력증명서(아포스티유·번역), 제적등본·가족관계증명서, 생계유지능력 입증서류, 사진',
+        '정부 수수료(별도): 국적상실·이탈 무료 / 국적회복 20만원 (변동 가능, 대행 수임료 제외)'
+      ]},
+      { h: '진행 절차', list: COMMON_PROCESS }
+    ]
+  },
+  {
+    title: 'F-6 결혼이민 비자·체류연장',
+    sub: '국민의 외국인 배우자 초청·체류',
+    desc: '국제결혼 후 외국인 배우자 사증발급 및 국내 체류자격 변경·연장 구비서류입니다.',
+    sections: [
+      { h: '기본 구비서류', list: [
+        '사증발급신청서(또는 통합신청서), 여권 사본, 표준규격 사진',
+        '한국인 배우자: 혼인관계증명서(상세), 가족관계증명서, 기본증명서, 주민등록등본, 신분증',
+        '외국인 배우자: 본국 혼인증명서(인증·번역), 범죄경력증명서, 건강진단서',
+        '소득요건 서류(소득금액증명원 등), 주거요건 서류(등기부등본·임대차계약서), 신원보증서, 교제경위서',
+        '정부 수수료(별도): 체류연장 3만원 / 자격변경 10만원 (변동 가능, 대행 수임료 제외)'
+      ]}
+    ]
+  },
+  {
+    title: 'E-7 특정활동 (전문인력 취업)',
+    sub: '전문직·기술인력·숙련기능인력',
+    desc: '법무부 지정 직종별 전문 외국인력 초청 및 체류자격 변경·연장 구비목록입니다.',
+    sections: [
+      { h: '기본 구비서류', list: [
+        '통합신청서, 여권, 외국인등록증(해당 시), 표준규격 사진, 고용계약서',
+        '초청기업: 사업자등록증, 법인등기부등본, 납세증명서, 고용보험 가입자 명부, 고용사유서',
+        '신청인: 학위증명서(아포스티유/영사확인), 경력증명서, 자격증 사본',
+        '정부 수수료(별도): 체류연장 6만원 / 자격변경 10만원 (변동 가능, 대행 수임료 제외)'
+      ]}
+    ]
+  },
+  {
+    title: 'F-2 거주 · F-5 영주자격 · F-4 재외동포',
+    sub: '점수제 거주·영주권·동포 체류자격',
+    desc: '점수제 우수인재 거주(F-2-7), 영주(F-5), 외국국적동포(F-4) 체류자격 구비목록입니다.',
+    sections: [
+      { h: '기본 구비서류', list: [
+        '통합신청서, 여권, 외국인등록증, 사진, 체류지 입증서류',
+        '소득금액증명원, 납세증명서, 자산 증빙, 본국 범죄경력증명서(아포스티유/영사확인 및 번역)',
+        'F-4 동포 입증 시 제적등본·가족관계증명서·외국 시민권증서',
+        '정부 수수료(별도): F-5 영주 20만원 / 일반 체류연장 6만원 / 자격변경 10만원 (변동 가능)'
+      ]}
+    ]
+  },
+  {
+    title: 'D-2 유학 · D-4 어학연수 · D-10 구직',
+    sub: '학위과정·어학원·졸업 후 구직',
+    desc: '국내 대학 유학, 한국어 연수 및 졸업 후 구직활동(D-10) 체류 구비서류입니다.',
+    sections: [
+      { h: '기본 구비서류', list: [
+        '통합신청서, 여권, 외국인등록증, 사진, 체류지 입증서류',
+        'D-2/D-4: 표준입학허가서, 재학증명서, 성적·출석증명서, 재정능력 입증서류',
+        'D-10: 졸업(예정)증명서, 구직활동계획서, 체류비 입증서류',
+        '정부 수수료(별도): 체류연장 6만원 / 자격변경 10만원 (변동 가능)'
+      ]}
+    ]
+  },
+  {
+    title: 'D-8 기업투자 · 체류지·기재사항 변경',
+    sub: '외국인 투자법인·체류지 변경 신고',
+    desc: '외국인투자촉진법에 따른 기업투자(D-8) 및 체류지·여권 변경 신고 구비목록입니다.',
+    sections: [
+      { h: '기본 구비서류', list: [
+        'D-8: 외국인투자신고서, 투자기업등록증, 법인등기부, 외화매입증명서, 사무실 임대차계약서',
+        '체류지·기재사항 변경: 통합신청서, 여권, 외국인등록증, 임대차계약서 등 체류지 입증서류',
+        '정부 수수료(별도): D-8 연장 6만원·변경 10만원 / 체류지 변경 신고 무료 (변동 가능)'
+      ]}
+    ]
+  }
+];
+
+// 3. 국제결혼 및 가족관계 신고 (9개국)
+var COUNTRIES = [
+  {
+    code: 'us', name: '미국',
+    note: '미국은 중앙 혼인요건증명서 제도가 없어 주한미국대사관 영사 공증(미혼선서서) 및 주정부 발행 문서의 아포스티유 확인이 적용됩니다.',
+    marriage: ['한국인: 혼인관계증명서(상세), 가족관계증명서, 기본증명서, 신분증', '미국인: 여권 사본, 주한미국대사관 영사 공증 미혼선서서(Affidavit of Eligibility for Marriage) 및 한국어 번역본', '혼인신고서(성년 증인 2인 서명·날인 포함)'],
+    bigamy: ['미국 주정부 발행 혼인증명서(Marriage Certificate) 원본 + 미국 국무부/주정부 아포스티유 + 한국어 번역본', '혼인신고서, 부부 쌍방 신분증·여권 사본, 한국인 가족관계등록부 기본·혼인관계증명서'],
+    birth: ['출생신고서(출생 후 1개월 이내), 병원 발행 출생증명서 원본', '미국 출생 시: 미국 출생증명서(Birth Certificate) + 아포스티유 + 한국어 번역본', '부모 혼인관계증명서, 한국인 부모 신분증, 미국인 부모 여권 사본'],
+    divorce: ['협의이혼: 가정법원 협의이혼의사확인서 등본, 이혼신고서, 신분증', '미국 법원 이혼판결 시: 이혼판결문(Divorce Decree) 및 확정증명 + 아포스티유 + 한국어 번역본, 이혼신고서'],
+    ack: ['인지신고서, 인지자 신분증·가족관계증명서', '자녀 출생증명서 및 친자관계 입증서류(미국 발행 시 아포스티유·번역), 모(母)의 동의서(필요 시)'],
+    dissolution: ['파양신고서(협의파양 시 증인 2인 서명) 또는 가정법원/미국법원 재판파양 확정판결문(아포스티유·번역), 당사자 신분증']
+  },
+  {
+    code: 'cn', name: '중국',
+    note: '중국은 아포스티유 협약 가입국으로 중국 공증처 공증서 및 중국 외교부/지방 외사판공실 아포스티유 확인이 필요합니다.',
+    marriage: ['한국인: 혼인관계증명서(상세), 기본증명서, 가족관계증명서, 신분증', '중국인: 여권 사본, 거민신분증·호구부 사본, 중국 공증처 발행 미혼(미재혼)성명공증서 + 아포스티유 + 한국어 번역본', '혼인신고서(증인 2인 서명)'],
+    bigamy: ['중국 민정국 발행 결혼증 공증서 + 중국 아포스티유 + 한국어 번역본', '혼인신고서, 한국인 가족관계·기본증명서, 중국인 여권·거민신분증 사본'],
+    birth: ['출생신고서, 병원 출생의학증명서(중국 출생 시 출생의학증명서 공증 + 아포스티유 + 번역본)', '부모 혼인관계증명서, 한국인 부모 신분증, 중국인 부모 여권·호구부 사본'],
+    divorce: ['협의이혼 확인서등본 또는 중국 민정국 이혼증 공증서/인민법원 이혼판결서·확정증명 공증 + 아포스티유 + 번역본, 이혼신고서'],
+    ack: ['인지신고서, 인지자 신분증, 자녀 출생의학증명서 공증·아포스티유·번역, 친자확인서 및 모의 동의서'],
+    dissolution: ['파양신고서(증인 2인) 또는 민정국 파양등기증명 공증·법원판결서(아포스티유·번역), 신분증']
+  },
+  {
+    code: 'vn', name: '베트남',
+    note: '베트남은 아포스티유 미가입국으로, 베트남 외교부 영사확인 후 주베트남한국대사관(총영사관) 영사확인이 필수입니다.',
+    marriage: ['한국인: 혼인관계증명서(상세), 기본증명서, 가족관계증명서, 신분증', '베트남인: 여권 사본, 베트남 인민위원회 발행 혼인상황확인서(미혼증명서) 번역공증 + 베트남 외교부 및 한국공관 영사확인', '혼인신고서(증인 2인 서명)'],
+    bigamy: ['베트남 인민위원회 발행 혼인증명서(Giấy chứng nhận kết hôn) 원본 + 번역공증 + 베트남 외교부·한국공관 영사확인', '혼인신고서, 한국인 기본·혼인관계증명서, 베트남인 여권 사본'],
+    birth: ['출생신고서, 병원 출생증명서(베트남 출생 시 베트남 출생증명서 번역공증 + 외교부·한국공관 영사확인)', '부모 혼인관계증명서, 한국인 부모 신분증, 베트남인 부모 여권 사본'],
+    divorce: ['협의이혼 확인서등본 또는 베트남 인민법원 이혼판결문·확정증명 번역공증 + 외교부·한국공관 영사확인, 이혼신고서'],
+    ack: ['인지신고서, 인지자 신분증, 자녀 출생증명서(영사확인·번역), 유전자검사서 등 입증자료, 동의서'],
+    dissolution: ['파양신고서 또는 베트남 관할기관 파양결정서·판결문(외교부·한국공관 영사확인 및 번역), 신분증']
+  },
+  {
+    code: 'ph', name: '필리핀',
+    note: '필리핀은 아포스티유 가입국으로, 필리핀 통계청(PSA) 발행 서류에 대한 필리핀 외교부(DFA) 아포스티유 인증이 필요합니다.',
+    marriage: ['한국인: 혼인관계증명서(상세), 기본증명서, 가족관계증명서, 신분증', '필리핀인: 여권 사본, 필리핀 통계청(PSA) 발행 미혼증명서(CENOMAR) + DFA 아포스티유 + 한국어 번역본', '혼인신고서(증인 2인 서명)'],
+    bigamy: ['필리핀 통계청(PSA) 발행 혼인증명서(Marriage Certificate) + DFA 아포스티유 + 한국어 번역본', '혼인신고서, 한국인 기본·혼인관계증명서, 필리핀인 여권 사본'],
+    birth: ['출생신고서, 병원 출생증명서(필리핀 출생 시 PSA 출생증명서 + DFA 아포스티유 + 번역본)', '부모 혼인관계증명서, 한국인 부모 신분증, 필리핀인 부모 여권 사본'],
+    divorce: ['협의이혼 확인서등본 또는 외국법원 이혼판결문·혼인무효(Annulment) 확정판결문 + DFA 아포스티유 + 번역본, 이혼신고서'],
+    ack: ['인지신고서, 인지자 신분증, PSA 출생증명서(아포스티유·번역), 친자 입증자료 및 모의 동의서'],
+    dissolution: ['파양신고서 또는 법원 파양확정판결문(DFA 아포스티유·번역), 양친·양자 신분증']
+  },
+  {
+    code: 'th', name: '태국',
+    note: '태국은 아포스티유 미가입국으로, 태국 외교부 영사국 인증 후 주태국한국대사관 영사확인을 거쳐야 합니다.',
+    marriage: ['한국인: 혼인관계증명서(상세), 기본증명서, 가족관계증명서, 신분증', '태국인: 여권 사본, 태국 구청(암퍼) 발행 미혼증명서 영문번역 + 태국 외교부 및 주태국한국대사관 영사확인 + 한국어 번역본', '혼인신고서(증인 2인 서명)'],
+    bigamy: ['태국 구청 발행 혼인증명서(크로.2 및 크로.3) + 태국 외교부·주태국한국대사관 영사확인 + 한국어 번역본', '혼인신고서, 한국인 기본·혼인관계증명서, 태국인 여권 사본'],
+    birth: ['출생신고서, 병원 출생증명서(태국 출생 시 태국 출생증명서 + 태국 외교부·한국대사관 영사확인 + 번역본)', '부모 혼인관계증명서, 한국인 부모 신분증, 태국인 부모 여권 사본'],
+    divorce: ['협의이혼 확인서등본 또는 태국 구청 협의이혼증명서(크로.6)/법원판결문 + 외교부·한국대사관 영사확인 + 번역본, 이혼신고서'],
+    ack: ['인지신고서, 인지자 신분증, 태국 출생증명서(영사확인·번역), 친자관계 입증서류 및 모의 동의서'],
+    dissolution: ['파양신고서 또는 태국 구청 파양등록증명·법원판결문(외교부·한국대사관 영사확인·번역), 신분증']
+  },
+  {
+    code: 'jp', name: '일본',
+    note: '일본은 아포스티유 가입국이며, 시구청 발행 호적등본 및 혼인요건구비증명서에 대한 일본 외무성 아포스티유 또는 공관 확인을 진행합니다.',
+    marriage: ['한국인: 혼인관계증명서(상세), 기본증명서, 가족관계증명서, 신분증', '일본인: 여권 사본, 일본 시구청/주한일본대사관 발행 혼인요건구비증명서(독신증명서) + 호적등본 + 한국어 번역본', '혼인신고서(증인 2인 서명)'],
+    bigamy: ['일본 시구청 발행 혼인신고수리증명서 또는 혼인사항이 기재된 호적등본 + 한국어 번역본', '혼인신고서, 한국인 기본·혼인관계증명서, 일본인 여권 사본'],
+    birth: ['출생신고서, 병원 출생증명서(일본 출생 시 일본 시구청 발행 출생신고수리증명서 또는 기재사항증명서 + 한국어 번역본)', '부모 혼인관계증명서, 한국인 부모 신분증, 일본인 부모 여권 사본'],
+    divorce: ['협의이혼 확인서등본 또는 일본 시구청 발행 이혼신고수리증명서(이혼기재 호적등본) + 한국어 번역본, 이혼신고서'],
+    ack: ['인지신고서, 인지자 신분증, 자녀 호적등본·출생증명서(번역), 친자 입증자료 및 모의 동의서'],
+    dissolution: ['파양신고서(이연신고) 또는 일본 시구청 이연신고수리증명서·가정재판소 심판서(번역), 신분증']
+  },
+  {
+    code: 'ru', name: '러시아',
+    note: '러시아는 아포스티유 가입국으로, 러시아 등기소(ZAGS) 및 공증인 발행 서류에 러시아 법무부/ZAGS 아포스티유가 필요합니다.',
+    marriage: ['한국인: 혼인관계증명서(상세), 기본증명서, 가족관계증명서, 신분증', '러시아인: 여권 사본, ZAGS 발행 미혼증명서(또는 공증 미혼진술서) + 러시아 아포스티유 + 한국어 번역본', '혼인신고서(증인 2인 서명)'],
+    bigamy: ['러시아 ZAGS 발행 혼인증명서 원본 + 러시아 아포스티유 + 한국어 번역본', '혼인신고서, 한국인 기본·혼인관계증명서, 러시아인 여권 사본'],
+    birth: ['출생신고서, 병원 출생증명서(러시아 출생 시 ZAGS 발행 출생증명서 + 러시아 아포스티유 + 번역본)', '부모 혼인관계증명서, 한국인 부모 신분증, 러시아인 부모 여권 사본'],
+    divorce: ['협의이혼 확인서등본 또는 러시아 ZAGS 이혼증명서/법원 이혼판결문 + 러시아 아포스티유 + 한국어 번역본, 이혼신고서'],
+    ack: ['인지신고서, 인지자 신분증, ZAGS 출생증명서·부성확인증명서(아포스티유·번역), 모의 동의서'],
+    dissolution: ['파양신고서 또는 러시아 법원 입양취소 확정판결문(러시아 아포스티유·번역), 당사자 신분증']
+  },
+  {
+    code: 'uz', name: '우즈베키스탄',
+    note: '우즈베키스탄은 아포스티유 가입국으로, 우즈베키스탄 법무부/외교부 아포스티유 확인 및 한국어 번역이 필요합니다.',
+    marriage: ['한국인: 혼인관계증명서(상세), 기본증명서, 가족관계증명서, 신분증', '우즈베키스탄인: 여권 사본, 우즈베키스탄 호적등록기관(FHDYO) 발행 미혼증명서 + 아포스티유 + 한국어 번역본', '혼인신고서(증인 2인 서명)'],
+    bigamy: ['우즈베키스탄 FHDYO 발행 혼인증명서 원본 + 아포스티유 + 한국어 번역본', '혼인신고서, 한국인 기본·혼인관계증명서, 우즈베키스탄인 여권 사본'],
+    birth: ['출생신고서, 병원 출생증명서(우즈베키스탄 출생 시 FHDYO 출생증명서 + 아포스티유 + 번역본)', '부모 혼인관계증명서, 한국인 부모 신분증, 우즈베키스탄인 부모 여권 사본'],
+    divorce: ['협의이혼 확인서등본 또는 우즈베키스탄 FHDYO 이혼증명서/법원 판결문 + 아포스티유 + 한국어 번역본, 이혼신고서'],
+    ack: ['인지신고서, 인지자 신분증, FHDYO 출생증명서(아포스티유·번역), 친자관계 입증서류 및 모의 동의서'],
+    dissolution: ['파양신고서 또는 우즈베키스탄 법원 파양판결 확정서류(아포스티유·번역), 당사자 신분증']
+  },
+  {
+    code: 'kh', name: '캄보디아',
+    note: '캄보디아는 아포스티유 미가입국이며, 국제결혼 시 캄보디아 외교부·내무부 절차 및 주캄보디아한국대사관 영사확인이 필수입니다.',
+    marriage: ['한국인: 혼인관계증명서(상세), 기본증명서, 가족관계증명서, 신분증', '캄보디아인: 여권 사본, 캄보디아 관할 구청 발행 미혼증명서 + 캄보디아 외교부 및 주캄보디아한국대사관 영사확인 + 한국어 번역본', '혼인신고서(증인 2인 서명)'],
+    bigamy: ['캄보디아 관할 기관 발행 혼인증명서 + 캄보디아 외교부·주캄보디아한국대사관 영사확인 + 한국어 번역본', '혼인신고서, 한국인 기본·혼인관계증명서, 캄보디아인 여권 사본'],
+    birth: ['출생신고서, 병원 출생증명서(캄보디아 출생 시 캄보디아 출생증명서 + 외교부·한국대사관 영사확인 + 번역본)', '부모 혼인관계증명서, 한국인 부모 신분증, 캄보디아인 부모 여권 사본'],
+    divorce: ['협의이혼 확인서등본 또는 캄보디아 법원 이혼판결문·확정증명 + 외교부·한국대사관 영사확인 + 번역본, 이혼신고서'],
+    ack: ['인지신고서, 인지자 신분증, 캄보디아 출생증명서(영사확인·번역), 친자관계 입증서류 및 모의 동의서'],
+    dissolution: ['파양신고서 또는 캄보디아 관할기관 파양결정서·판결문(외교부·한국대사관 영사확인·번역), 당사자 신분증']
+  }
+];
+
+// 4. 숙박업 및 음식점 인허가 · 부동산 협업 안내
+var DATA_BIZ = [
+  {
+    title: '숙박업 영업신고 (일반·생활숙박·민박)',
+    sub: '공중위생관리법·관광진흥법 영업신고',
+    desc: '호텔, 모텔, 생활숙박업, 외국인관광 도시민박업, 한옥체험업 등 숙박시설 영업신고 구비서류입니다.',
+    sections: [
+      { h: '기본 구비서류', list: [
+        '영업신고서 및 신청인 신분증(법인인 경우 법인등기부등본·위임장)',
+        '영업시설 및 설비 개요서, 평면도',
+        '임대차계약서 사본 또는 건물 사용권원 입증서류(건축물대장 용도 확인 필수)',
+        '소방본부 발행 안전시설등 완비증명서(해당 규모 이상 시)',
+        '위생교육수료증(공중위생교육원 사전 이수), 전기안전점검확인서(해당 시)',
+        '정부 수수료(별도): 지자체 면허세 및 신고 수수료 별도 (대행 수임료 제외)'
+      ]}
+    ]
+  },
+  {
+    title: '음식점 영업신고 (일반·휴게음식점·제과점)',
+    sub: '식품위생법 영업신고 및 지위승계',
+    desc: '일반음식점, 카페·휴게음식점, 제과점 신규 영업신고 및 기존 영업자 지위승계 신고 구비목록입니다.',
+    sections: [
+      { h: '기본 구비서류', list: [
+        '식품영업신고서 및 신청인 신분증(대리 신청 시 위임장 및 인감증명서)',
+        '임대차계약서 사본(건축물대장상 근린생활시설 용도 확인)',
+        '지정 교육기관 위생교육필증, 건강진단결과서(구 보건증)',
+        '소방안전시설완비증명서(다중이용업소 해당 시), 액화석유가스 완성검사필증(LPG 사용 시)',
+        '정부 수수료(별도): 지자체 면허세 및 신고 수수료 별도 (대행 수임료 제외)'
+      ]}
+    ]
+  },
+  {
+    title: '부동산 매매·전월세·권리금 계약서 작성',
+    sub: '직거래 계약서·특약 설계·임대인 위장거주 사실조사',
+    desc: '부동산 직거래 매매, 전세·월세 임대차, 상가 권리금 계약서 작성 및 임대인 실거주 의무 위반·위장거주 사실조사 업무입니다.',
+    sections: [
+      { h: '지원 업무 및 준비서류', list: [
+        '대상 부동산 등기사항전부증명서(등기부등본), 건축물대장, 토지이용계획확인원',
+        '당사자 신분증(법인인 경우 법인등기부등본·법인인감증명서)',
+        '특약사항 반영 맞춤형 매매·전월세·상가 권리금 계약서 작성 대행',
+        '임대인 실거주 의무 위반·위장거주 여부 현장 사실조사(탐정업무 병행)'
+      ]}
+    ]
+  },
+  {
+    title: '국제결혼 비자요건 안내 · 상가 권리금계약서',
+    sub: '지속적 협업 · 비자 조건 설명과 계약서 작성 중심',
+    desc: '국제결혼은 상대국 사정을 알기 어려워 피해 우려가 있으므로, 업체 일괄 대행이 아니라 한국 비자 조건·요건 설명과 서류 안내 중심으로 도와드립니다. 부동산은 상가 권리금계약서 작성을 지원합니다.',
+    sections: [
+      { h: '안내 범위', list: [
+        '국제결혼업체 협업: F-6 결혼이민 사증 등 한국 비자 조건·요건 설명과 서류 안내',
+        '교제·결혼 경위를 입증하는 자료(교제 사진, 대화 기록 등) 준비 방법 안내',
+        '부동산: 상가 권리금계약서 작성',
+        '협업 문의: 대표전화 010-8128-1079 · 팩스 02-723-1126 · 이메일 3351ben@daum.net'
+      ]}
+    ]
+  }
+];
+
+// 5. 소명서 등 기타 서류 안내
+var DATA_ETC = [
+  {
+    title: '출입국 사유서 · 소명서 · 탄원서',
+    sub: '불법체류 구제·사범심사·초청 소명',
+    desc: '출입국 사범심사, 체류기간 도과, 비자 불허 후 재신청 시 사실관계를 논리적으로 정리한 소명서 작성입니다.',
+    sections: [
+      { h: '기본 구비서류', list: [
+        '신청인 여권·외국인등록증 사본, 사건 경위 메모(육하원칙 기준)',
+        '출입국관리사무소 출석요구서 또는 불허·보완통지서(해당 시)',
+        '반성문·탄원서·가족관계 증빙·소득 및 국내 정착 입증자료'
+      ]}
+    ]
+  },
+  {
+    title: '내용증명 · 사실확인서 · 행정심판 청구서',
+    sub: '권리보전·분쟁예방·행정처분 구제',
+    desc: '임대차 보증금 반환, 계약 해지 통보 내용증명, 사실관계 확인서 및 부당한 행정처분에 대한 행정심판 서류 작성입니다.',
+    sections: [
+      { h: '기본 구비서류', list: [
+        '발신인·수신인 인적사항 및 주소, 관련 계약서·영수증·문자·녹취록 등 증거자료',
+        '행정심판의 경우 관할 행정청의 처분통지서(처분을 안 날로부터 90일 이내 청구 필수)',
+        '※ 행정사법 범위 내 적법한 서류 작성을 지원하며 비대면 전국 진행이 가능합니다.'
+      ]}
+    ]
+  }
+];
+
+// 카드 렌더링
+function renderCards(list, gridId, type) {
+  var grid = document.getElementById(gridId);
+  list.forEach(function(item) {
+    var div = document.createElement('div');
+    div.className = 'card';
+    if (type === 'country') {
+      var flagUrl = flagSrc(item.code);
+      div.innerHTML = '<div><div class="card-title"><img class="flag-img" src="' + flagUrl + '" alt="' + item.name + ' 국기">' + item.name + '</div><div class="card-desc">혼인·중혼적 혼인·출생·이혼·인지·파양신고</div></div><div class="card-btn">신고별 구비서류 열기 →</div>';
+      div.onclick = function() { openCountryModal(item); };
+    } else {
+      div.innerHTML = '<div><div class="card-title">' + item.title + '</div><div class="card-desc">' + item.sub + '</div></div><div class="card-btn">구비서류 상세보기 →</div>';
+      div.onclick = function() { openStandardModal(item); };
+    }
+    grid.appendChild(div);
+  });
+}
+
+renderCards(DATA_US, 'grid-us', 'std');
+renderCards(DATA_KV, 'grid-kv', 'std');
+renderCards(COUNTRIES, 'grid-mr', 'country');
+renderCards(DATA_BIZ, 'grid-biz', 'std');
+renderCards(DATA_ETC, 'grid-etc', 'std');
+
+// 일반 항목 모달 열기
+function openStandardModal(item) {
+  document.getElementById('m-title').innerText = item.title;
+  document.getElementById('m-desc').innerText = item.desc;
+  var html = '';
+  item.sections.forEach(function(sec) {
+    html += '<div class="modal-sec"><h4>' + sec.h + '</h4><ul>' +
+      sec.list.map(function(li) { return '<li>' + li + '</li>'; }).join('') +
+      '</ul></div>';
+  });
+  document.getElementById('m-body').innerHTML = html;
+  document.getElementById('modal').classList.add('open');
+}
+
+// 국가별 국제결혼·가족관계 신고 모달 열기
+function openCountryModal(c) {
+  document.getElementById('m-title').innerText = c.name + ' 국제결혼 · 가족관계 신고 구비서류';
+  document.getElementById('m-desc').innerText = c.note;
+  var types = [
+    ['1. 혼인신고 (한국 선신고)', c.marriage],
+    ['2. 중혼적 혼인신고 (현지 선혼인 후 한국 보고적 신고)', c.bigamy],
+    ['3. 출생신고 (자녀 출생 후 1개월 이내)', c.birth],
+    ['4. 이혼신고 (협의이혼·재판이혼)', c.divorce],
+    ['5. 인지신고 (혼인 외 출생자 친자 인지)', c.ack],
+    ['6. 파양신고 (협의파양·재판파양)', c.dissolution]
+  ];
+  var html = types.map(function(t) {
+    return '<div class="modal-sec"><h4>' + t[0] + '</h4><ul>' +
+      t[1].map(function(li) { return '<li>' + li + '</li>'; }).join('') +
+      '</ul></div>';
+  }).join('');
+  document.getElementById('m-body').innerHTML = html;
+  document.getElementById('modal').classList.add('open');
+}
+
+function closeModal() {
+  document.getElementById('modal').classList.remove('open');
+}
+</script>
+</body>
+</html>
